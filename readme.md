@@ -1,76 +1,76 @@
-# 🌤️ SkyCast — Weather Forecast Website
+# 🌦️ SkyCast — Weather Forecast
 
-A responsive weather forecasting website built with HTML, CSS, and JavaScript. SkyCast uses live weather data from the Open-Meteo API to help users explore current conditions and upcoming forecasts for different cities.
+A responsive weather forecast website built with HTML, CSS, and JavaScript. SkyCast lets users search for a city and view current conditions and forecasts through a clean, easy-to-use interface.
+
+🌐 **Live Demo:** https://roopesh-vibex.github.io/SKY-CAST/
 
 ## ✨ Features
 
-- 🌍 Search for cities and view their weather
-- 🌡️ Switch between Celsius and Fahrenheit
-- ☁️ View current weather conditions and feels-like temperature
-- 🕒 Explore hourly forecasts
-- 📅 Check the 7-day weather forecast
-- 💨 View humidity, wind speed, UV index, and precipitation probability
-- 📱 Responsive layout for desktop and mobile screens
-- ⚠️ Handle API and network errors with helpful messages
+- Search for weather by city
+- View current weather conditions
+- Hourly and 7-day forecast
+- Switch between Celsius and Fahrenheit
+- View details such as humidity, wind speed, UV index, and precipitation probability
+- Responsive layout for desktop and mobile
+- Weather data powered by the Open-Meteo API
+- Geocoding for city search and error handling for unsuccessful searches
 
-## 🛠️ Built With
+## 🧰 Tech Stack
 
 - **HTML5** — page structure
-- **CSS3** — styling and responsive layout
-- **JavaScript (ES6+)** — application logic and API integration
-- **Open-Meteo API** — weather forecasts and geocoding
+- **CSS3** — layout, styling, and responsive design
+- **JavaScript (ES6+)** — API requests and interface interactions
+- **Open-Meteo API** — weather and forecast data
+- **Git & GitHub** — version control and source hosting
+- **GitHub Pages** — public deployment
 
-## 🚀 Getting Started
+## 🚀 Run Locally
 
-### Run Locally
-
-1. Clone this repository:
+1. Clone the repository:
 
    ```bash
-   git clone https://github.com/YOUR-USERNAME/SkyCast.git
+   git clone https://github.com/Roopesh-vibeX/SKY-CAST.git
    ```
 
 2. Open the project folder:
 
    ```bash
-   cd SkyCast
+   cd SKY-CAST
    ```
 
-3. Open `index.html` in your browser, or use the Live Server extension in Visual Studio Code.
+3. Open `index.html` in your browser, or use the Live Server extension in VS Code.
 
-No build step is required for this static website.
+No API key is required for the Open-Meteo endpoints used by this project.
 
 ## 📁 Project Structure
 
 ```text
-SkyCast/
+SKY-CAST/
 ├── index.html
 ├── style.css
 ├── script.js
-└── README.md
+├── readme.md
+└── preview.png
 ```
 
-## 🌐 Weather Data
+> The preview image is a promotional concept graphic, not a screenshot of the running application. For the strongest portfolio presentation, replace it with a screenshot captured from the live SkyCast site.
 
-SkyCast retrieves weather forecast data from [Open-Meteo](https://open-meteo.com/).
+## 🎯 What I Practiced
 
-Weather availability depends on the API and your internet connection.
+- Fetching and handling API data with JavaScript
+- Working with city geocoding and asynchronous requests
+- Updating the UI dynamically based on weather data
+- Creating a responsive interface
+- Handling invalid city searches and API errors
+- Publishing a static website with GitHub Pages
 
-## 🎯 Project Goal
+## 🔮 Possible Future Improvements
 
-This project is part of my journey in web development. It helps me practise JavaScript, asynchronous API requests, JSON data handling, DOM manipulation, error handling, and responsive UI design.
-
-## 🔮 Future Improvements
-
-- Add weather icons and richer forecast visuals
-- Add a list of favourite cities
-- Improve accessibility and loading animations
-- Deploy the website for public access
+- Save favorite cities
+- Add location-based weather
+- Add loading skeletons and improved empty states
+- Add accessibility and automated browser tests
 
 ## 📄 License
 
-This project is available under the MIT License. See the `LICENSE` file for details.
-
----
-
-**Built with ☁️ and JavaScript.**
+If you want others to reuse this project, add a license file such as `LICENSE` and choose a license that fits your goals.
