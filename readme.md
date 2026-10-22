@@ -73,4 +73,4 @@ SKY-CAST/
 
 ## 📄 License
 
-If you want others to reuse this project, add a license file such as `LICENSE` and choose a license that fits your goals.
+USE THE REPOSITORY LINK TO CLONE THIS PROJECT. ALL INSTRUCTIONS ARE AVAILABLE IN THE README FILE.
